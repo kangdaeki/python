@@ -1,6 +1,7 @@
 from typing import List
 def partition(A:List[int], lo:int, hi:int)->List[int]:
-    i=hi
+    i=hi-1
+    
     return i
 
 def quick_sort(A:List[int], lo:int, hi:int)->List[int]:
